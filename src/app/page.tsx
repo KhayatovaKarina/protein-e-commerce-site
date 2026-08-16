@@ -153,7 +153,7 @@ export default async function HomePage() {
                 {/* Glow effect */}
                 <div className="absolute inset-0 rounded-full bg-pink-300/30 blur-3xl scale-90" />
                 <Image
-                  src="/images/hero-bg.jpg"
+                  src="/images/main.jpg"
                   alt="Pink Pony Protein — Газированный Протеин"
                   fill
                   className="object-cover rounded-3xl shadow-2xl shadow-pink-200"
