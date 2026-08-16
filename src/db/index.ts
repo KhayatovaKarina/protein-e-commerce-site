@@ -1,7 +1,7 @@
 import { drizzle } from "drizzle-orm/node-postgres";
 import { Pool } from "pg";
 
-const databaseUrl = process.env.DATABASE_URL;
+const databaseUrl = "postgresql://kaiki_c_745d9fb62aa79d3664730ee8:Kk1!oDhlW-OLUd-7boI3-4Dwy-NXq6py@ep-9a3d6d3d107a.kaiki.ru:5432/proteindb?sslmode=require&connection_limit=10";
 
 if (!databaseUrl) {
   throw new Error("DATABASE_URL is required");
